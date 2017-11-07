@@ -1,0 +1,20 @@
+{
+  "name": "youtube-video-plugin",
+  "version": "1.0.3",
+  "description": "Create video sections with youtube",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "vvasilik",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.8.1"
+  }
+}
