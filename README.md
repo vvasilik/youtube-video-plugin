@@ -1,5 +1,5 @@
 # youtube-video-plugin
-npm i youtube-video-plugin
+npm install youtube-video-plugin -D
 
 <pre>
 import { YoutubePlay } from 'youtube-video-plugin';
