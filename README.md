@@ -1,7 +1,7 @@
 # youtube-video-plugin
 npm i youtube-video-plugin
 
-import { YoutubePlay } from './src/index';
+import { YoutubePlay } from 'youtube-video-plugin';
 
 YoutubePlay.run({
     className: '_youtube-video',
