@@ -1,6 +1,7 @@
 # youtube-video-plugin
 npm i youtube-video-plugin
 
+<pre>
 import { YoutubePlay } from 'youtube-video-plugin';
 
 YoutubePlay.run({
@@ -13,3 +14,4 @@ YoutubePlay.run({
     width: 300,
     height: 200
 });
+</pre>
