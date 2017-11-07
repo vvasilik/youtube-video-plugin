@@ -1,6 +1,6 @@
 {
   "name": "youtube-video-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create video sections with youtube",
   "main": "src/index.js",
   "scripts": {
@@ -10,6 +10,11 @@
   "keywords": [
     "youtube"
   ],
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/vvasilik/youtube-video-plugin"
+  },
   "author": "vvasilik",
   "license": "MIT",
   "devDependencies": {
