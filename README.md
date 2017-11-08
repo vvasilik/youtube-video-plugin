@@ -5,7 +5,8 @@ Use `data-src="YOUTUBE VIDEO CODE"` in HTML
 
 `import { YoutubePlay } from 'youtube-video-plugin';`
 
-```YoutubePlay.run({
+```
+YoutubePlay.run({
     className: '_youtube-video',
     mute: 1,
     autoplay: 0,
