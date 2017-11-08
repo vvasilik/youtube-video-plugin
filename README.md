@@ -3,9 +3,9 @@ Use `data-src="YOUTUBE VIDEO CODE"` in HTML
 
 `npm install youtube-video-plugin -D`
 
-`import { YoutubePlay } from 'youtube-video-plugin';`
-
 ```
+import { YoutubePlay } from 'youtube-video-plugin';
+
 YoutubePlay.run({
     className: '_youtube-video',
     mute: 1,
