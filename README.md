@@ -1,10 +1,11 @@
 # youtube-video-plugin
-npm install youtube-video-plugin -D
+Use `data-src="YOUTUBE VIDEO CODE"` in HTML
 
-<pre>
-import { YoutubePlay } from 'youtube-video-plugin';
+`npm install youtube-video-plugin -D`
 
-YoutubePlay.run({
+`import { YoutubePlay } from 'youtube-video-plugin';`
+
+```YoutubePlay.run({
     className: '_youtube-video',
     mute: 1,
     autoplay: 0,
@@ -14,4 +15,4 @@ YoutubePlay.run({
     width: 300,
     height: 200
 });
-</pre>
+```
