@@ -1,5 +1,5 @@
 export var YoutubePlay = (function() {
-    function run(options) {console.log(123)
+    function run(options) {
         setInitOptions();
         setVideoIds();
         if (typeof YT !== "undefined") {
@@ -28,11 +28,11 @@ export var YoutubePlay = (function() {
             options.autoplay = options.autoplay !== 'undefined' ? options.autoplay : 0;
             options.controls = options.controls !== 'undefined' ? options.controls : 1;;
             options.showinfo = options.showinfo !== 'undefined' ? options.showinfo : 1;
-            options.loop = options.loop !== 'undefined' ? options.autoplay : 0;
+            options.loop = options.loop !== 'undefined' ? options.loop : 0;
             options.mute = options.mute !== 'undefined' ? options.mute : 0;
             options.width = options.width || 600;
             options.height = options.height || 400;
-            options.modestbranding = options.modestbranding !== 'undefined' ? options.autoplay : 1;
+            options.modestbranding = options.modestbranding !== 'undefined' ? options.modestbranding : 1;
         }
         
         function setVideoIds() {
