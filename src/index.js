@@ -26,7 +26,7 @@ export var YoutubePlay = (function() {
             options = options || {};
             options.className = (options.className || '_youtube-video');
             options.autoplay = options.autoplay !== 'undefined' ? options.autoplay : 0;
-            options.controls = options.controls !== 'undefined' ? options.controls : 1;;
+            options.controls = options.controls !== 'undefined' ? options.controls : 1;
             options.showinfo = options.showinfo !== 'undefined' ? options.showinfo : 1;
             options.loop = options.loop !== 'undefined' ? options.loop : 0;
             options.mute = options.mute !== 'undefined' ? options.mute : 0;
@@ -74,6 +74,7 @@ export var YoutubePlay = (function() {
                     'controls': options.controls,
                     'showinfo': options.showinfo,
                     'loop': options.loop,
+                    'playlist': options.loop ? video.dataset.src : null,
                     'modestbranding': options.modestbranding
                 },
                 events: {
