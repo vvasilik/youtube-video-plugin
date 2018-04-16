@@ -86,7 +86,7 @@ export var YoutubePlay = (function() {
             
             function onPlayerReady(event) {
                 if (options.mute) event.target.mute();
-                event.target.playVideo();
+                if (options.autoplay) event.target.playVideo();
             }
         }
     }
