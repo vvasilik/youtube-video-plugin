@@ -1,5 +1,5 @@
 # youtube-video-plugin
-Use `data-src="YOUTUBE VIDEO CODE"` in HTML
+Use `class="_youtube-video"` end `data-src="YOUTUBE VIDEO CODE"` in HTML
 
 `npm install youtube-video-plugin -D`
 
